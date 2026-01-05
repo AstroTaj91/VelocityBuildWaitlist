@@ -54,6 +54,9 @@ export default function WaitlistForm() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.8 }}
                 >
+                    <p className="text-blue-400 font-medium mb-2">
+                        For Enterprise, join the waitlist for earlybird pricing and comment 'ENTERPRISE'
+                    </p>
                     <h2 className="text-4xl md:text-5xl font-bold mb-6">Join The Waitlist</h2>
                     <p className="text-neutral-400 mb-12">
                         Secure your spot in the future of home building. We're launching soon.

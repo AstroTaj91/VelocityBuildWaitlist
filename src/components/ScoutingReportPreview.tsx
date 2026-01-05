@@ -29,13 +29,27 @@ export default function ScoutingReportPreview() {
             transition={{ duration: 0.6 }}
             className="glass rounded-2xl p-8 border border-neutral-800"
         >
-            <div className="flex items-center gap-3 mb-6">
+            <div className="flex items-start gap-3 mb-6">
                 <div className="p-3 rounded-full bg-blue-500/20">
                     <FileSearch className="w-6 h-6 text-blue-400" />
                 </div>
                 <div>
                     <h3 className="text-2xl font-bold text-white">Scouting Report Generator</h3>
-                    <p className="text-neutral-400 text-sm">AI-powered land feasibility analysis</p>
+                    <p className="text-neutral-400 text-sm mb-4">AI-powered land feasibility analysis</p>
+                    <ul className="space-y-2 text-sm text-neutral-300">
+                        <li className="flex items-center gap-2">
+                            <CheckCircle className="w-4 h-4 text-blue-400" />
+                            30% Time Saved on Average
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <CheckCircle className="w-4 h-4 text-blue-400" />
+                            15% Cost Saving Average
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <CheckCircle className="w-4 h-4 text-blue-400" />
+                            Builders Intelligence™
+                        </li>
+                    </ul>
                 </div>
             </div>
 
